@@ -19,7 +19,7 @@ To resolve this on *Windows*, install MinGW-w64 >8.1.0. The easiest way to do th
     ```ruby
     C:\> choco install mingw
     ```
-## Functionalit
+## Functionality
 
 Please view the **example.go** script to see how to use the wrapper in a simple way.
 
@@ -33,4 +33,5 @@ group    := "example-group-1"
 consumer := MakeGroupConsumer(brokers, topics, group)
 consumer.GroupConsume()
 ```
+*The **run.cmd** script runs the example together with the producers.*
    
